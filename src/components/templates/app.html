@@ -1,0 +1,49 @@
+<app>
+    <div id="main"></div>
+    <loading-indicator show={this.state.commonData.isLoading}></loading-indicator>
+
+    <style>
+        .uk-panel-box {
+            padding: 15px;
+            background: #fafafa;
+            color: #666;
+            border: 1px solid #E5E5E5;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        
+        .uk-panel-box .uk-panel-title {
+            color: #666;
+        }
+        
+        .uk-panel-title {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            text-transform: none;
+            color: #666;
+        }
+        
+        .uk-nav-side>li.uk-active>a {
+            background: #009dd8;
+            color: #fff;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, .2);
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+        }
+        
+        .uk-nav-side>li>a {
+            color: #666;
+        }
+        
+        .uk-nav>li>a {
+            padding: 3px 15px;
+        }
+        
+        .uk-nav li>a {
+            display: block;
+            text-decoration: none;
+        }
+    </style>
+</app>

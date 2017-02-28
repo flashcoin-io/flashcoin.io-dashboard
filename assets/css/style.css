@@ -1,0 +1,214 @@
+/* Style layout */
+html{
+    height: 100%;
+}
+body{
+     min-height: 100%;
+    position: relative;
+    box-sizing: inherit;
+    padding-bottom: 6em;
+}
+.tm-middle{
+    padding-top: 0 !important;
+}
+/* End */
+.row {
+    margin: 0;
+}
+.m5rl{
+    margin: 0 5px !important;
+}
+.container-allpages .container {
+    width: 98%;
+}
+
+a {
+    cursor: pointer;
+    color: #1363C2;
+}
+
+header#theme-header {
+    background: #256598;
+    border: none;
+    /* padding: 15px 0px; */
+    margin: 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#logo {
+    padding-top: 8px;
+    display: inline-block;
+}
+
+#logo img {
+    height: 31px;
+}
+
+footer#theme-footer {
+    background: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-top {
+    background-color: #91aabd;
+    color: #fff;
+    padding-top: 15px;
+}
+
+nav#footer-nav {
+    margin: 0px;
+    min-height: 30px;
+    margin-left: -20px;
+    margin-top: -5px;
+}
+
+#footer-nav .footer-menu-wrap {
+    display: inline-block;
+    /* font-weight: bold; */
+}
+
+#footer-menu {
+    text-align: center;
+}
+
+#theme-footer .footer-logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#theme-footer .footer-logo>a>img {
+    height: 18px;
+}
+
+.footer-copy-right {
+    color: #fff;
+    padding: 10px;
+    font-style: normal;
+    font-size: small;
+    font-weight: 400;
+    background-color: #506675;
+}
+
+#forgot-pass {
+    color: #1363C2;
+    font-size: medium;
+    margin-bottom: 28px;
+    float: left;
+    clear: both;
+}
+
+#resetPwdInput, #forgot-pass a {
+    cursor: pointer;
+    color: #fff;
+}
+
+#footer-menu>.navbar-nav>li>a {
+    color: #fff;
+    padding: 5px;
+    font-style: normal;
+    font-size: small;
+    font-weight: 400;
+}
+
+#footer-menu {
+    text-align: center;
+}
+
+.uk-badge{min-width: 24px;}
+
+.logo-img{
+    height: 31px;
+}
+
+.main-header{
+    background: #256598 !important;
+    border: none;
+    margin: 0px;
+    border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.main-header .uk-navbar-nav>li>a{
+    text-shadow: initial;
+    color: #a9a9a9;
+}
+
+.main-header .uk-navbar-nav>li>a:hover{
+    color: #fff;
+}
+
+.main-header .uk-subnav{
+    margin-top: 0px;
+}
+
+.main-header,
+.main-header .uk-subnav>*>*{
+    color: #a9a9a9;
+}
+
+.main-header .uk-subnav>*>a:hover{
+    color: #fff;
+}
+.uk-panel-box .uk-panel-title{
+    margin-top: 20px;
+}
+.profile-greeting{
+    color: #fff !important;
+}
+
+/* Find Account */
+.uk-pagination>li:nth-child(n+2){
+    margin-left: 0 !important;
+}
+/* Dashboard */
+.asof-today .uk-accordion-content {
+    padding: 0 15px 0px 15px;
+}
+.button-refresh{
+    position: fixed;
+    right: 20px;
+    top: 70px;
+    z-index: 100;
+}
+.button-refresh button{
+    height: 35px;
+    line-height: 37px;
+}
+.button-refresh button i.uk-icon-refresh{
+    font-size: 20px;
+}
+
+.unsubscribed-sumit-bt {
+    margin: 10px 0 10px 0 !important;
+}
+
+/* Token Issuer */
+.uk-form-icon{
+    margin: 0 5px 0;
+}
+.token-issuer .show-all-activity{
+    margin-left: 20px;
+}
+.token-issuer .uk-note-title{
+    cursor:auto;
+    font-size: 14px;
+}
+.token-issuer .uk-panel-title{
+    padding: 20px 0;
+}
+/* Modal dialog */
+.custom-table-modal .uk-table td{
+    border-bottom: none;
+}
+.custom-table-modal ._value_attr{
+    word-break: break-all;
+    height: auto;
+    min-height: 34px;
+}
+/* footer */
+#footer-nav .nav>li>a:focus,#footer-nav .nav>li>a:hover{
+    background-color: transparent;
+}

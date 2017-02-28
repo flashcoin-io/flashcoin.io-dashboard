@@ -1,0 +1,194 @@
+{
+  "jspm": {
+    "name": "app",
+    "main": "main.js",
+    "dependencies": {
+      "async": "npm:async@^2.1.4",
+      "bowser": "npm:bowser@^1.4.3",
+      "core-js": "npm:core-js@^2.4.1",
+      "css": "github:systemjs/plugin-css@^0.1.23",
+      "document-register-element": "npm:document-register-element@^1.1.1",
+      "font-awesome": "npm:font-awesome@^4.6.3",
+      "jquery": "npm:jquery@^3.1.0",
+      "machina": "npm:machina@^2.0.0",
+      "moment": "npm:moment@^2.14.1",
+      "numeraljs": "npm:numeraljs@^1.5.6",
+      "react-dom": "npm:react-dom@^15.4.1",
+      "react-router": "npm:react-router@^3.0.0",
+      "redux": "npm:redux@^3.5.2",
+      "redux-thunk": "npm:redux-thunk@^2.1.0",
+      "riot": "npm:riot@^2.5.0",
+      "riot-router": "npm:riot-router@^0.8.0",
+      "scss": "github:KevCJones/plugin-scss@^0.2.11",
+      "tag": "npm:systemjs-riot@^1.4.1",
+      "text": "github:systemjs/plugin-text@^0.0.8"
+    },
+    "devDependencies": {
+      "clean-css": "npm:clean-css@^3.4.18",
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12",
+      "plugin-traceur": "npm:systemjs-plugin-traceur@^0.0.2",
+      "plugin-typescript": "github:frankwallis/plugin-typescript@^5.0.1"
+    },
+    "peerDependencies": {
+      "assert": "npm:jspm-nodelibs-assert@^0.2.0",
+      "buffer": "npm:jspm-nodelibs-buffer@^0.2.0",
+      "child_process": "npm:jspm-nodelibs-child_process@^0.2.0",
+      "cluster": "npm:jspm-nodelibs-cluster@^0.2.0",
+      "constants": "npm:jspm-nodelibs-constants@^0.2.0",
+      "crypto": "npm:jspm-nodelibs-crypto@^0.2.0",
+      "dgram": "npm:jspm-nodelibs-dgram@^0.2.0",
+      "dns": "npm:jspm-nodelibs-dns@^0.2.0",
+      "domain": "npm:jspm-nodelibs-domain@^0.2.0",
+      "ecc-jsbn": "npm:ecc-jsbn@~0.1.1",
+      "events": "npm:jspm-nodelibs-events@^0.2.0",
+      "fs": "npm:jspm-nodelibs-fs@^0.2.0",
+      "fsevents": "npm:fsevents@^1.0.0",
+      "http": "github:jspm/nodelibs-http@^0.2.0-alpha",
+      "https": "npm:jspm-nodelibs-https@^0.2.0",
+      "jodid25519": "npm:jodid25519@^1.0.0",
+      "jsbn": "npm:jsbn@0.1",
+      "jsdom": "npm:jsdom@^7.0.2",
+      "module": "npm:jspm-nodelibs-module@^0.2.0",
+      "net": "npm:jspm-nodelibs-net@^0.2.0",
+      "os": "npm:jspm-nodelibs-os@^0.2.0",
+      "path": "npm:jspm-nodelibs-path@^0.2.0",
+      "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
+      "punycode": "npm:jspm-nodelibs-punycode@^0.2.0",
+      "querystring": "npm:jspm-nodelibs-querystring@^0.2.0",
+      "react": "npm:react@^15.4.1",
+      "source-map": "npm:source-map@0.2",
+      "stream": "npm:jspm-nodelibs-stream@^0.2.0",
+      "string_decoder": "npm:jspm-nodelibs-string_decoder@^0.2.0",
+      "tls": "npm:jspm-nodelibs-tls@^0.2.0",
+      "tty": "npm:jspm-nodelibs-tty@^0.2.0",
+      "tweetnacl": "npm:tweetnacl@0.13",
+      "url": "npm:jspm-nodelibs-url@^0.2.0",
+      "util": "npm:jspm-nodelibs-util@^0.2.0",
+      "vm": "npm:jspm-nodelibs-vm@^0.2.0",
+      "zlib": "npm:jspm-nodelibs-zlib@^0.2.0"
+    },
+    "overrides": {
+      "npm:browserify-zlib@0.1.4": {
+        "dependencies": {
+          "readable-stream": "^2.0.2",
+          "pako": "~0.2.0"
+        },
+        "map": {
+          "_stream_transform": "readable-stream/transform"
+        }
+      },
+      "npm:debug@2.2.0": {
+        "main": "browser.js",
+        "jspmNodeConversion": false,
+        "format": "cjs",
+        "map": {
+          "./browser.js": {
+            "node": "./node.js"
+          },
+          "fs": "@node/fs",
+          "net": "@node/net",
+          "tty": "@node/tty",
+          "util": "@node/util"
+        }
+      },
+      "npm:esprima@2.7.2": {
+        "jspmNodeConversion": false
+      },
+      "npm:font-awesome@4.6.3": {
+        "main": "css/font-awesome.css!",
+        "jspmNodeConversion": false,
+        "registry": "jspm",
+        "dependencies": {
+          "css": "0.1"
+        }
+      },
+      "npm:inherits@2.0.1": {
+        "ignore": [
+          "test.js"
+        ]
+      },
+      "npm:inherits@2.0.3": {
+        "ignore": [
+          "test.js"
+        ]
+      },
+      "npm:jquery@3.1.0": {
+        "format": "amd"
+      },
+      "npm:lodash@4.13.1": {
+        "map": {
+          "buffer": "@empty",
+          "process": "@empty"
+        }
+      },
+      "npm:lodash@4.14.2": {
+        "map": {
+          "buffer": "@empty",
+          "process": "@empty"
+        }
+      },
+      "npm:lodash@4.17.4": {
+        "map": {
+          "buffer": "@empty",
+          "process": "@empty"
+        }
+      },
+      "npm:moment@2.14.1": {
+        "jspmNodeConversion": false
+      },
+      "npm:ms@0.7.1": {
+        "jspmNodeConversion": false,
+        "format": "cjs"
+      },
+      "npm:readable-stream@1.1.14": {
+        "map": {
+          "stream": "stream-browserify/index"
+        },
+        "systemjs": {
+          "main": "readable.js"
+        },
+        "dependencies": {
+          "core-util-is": "~1.0.0",
+          "inherits": "~2.0.1",
+          "isarray": "0.0.1",
+          "string_decoder": "~0.10.0",
+          "stream-browserify": "^1.0.0"
+        }
+      },
+      "npm:sass.js@0.9.11": {
+        "map": {
+          "ws": "@empty"
+        },
+        "meta": {
+          "dist/sass.worker.js": {
+            "format": "global"
+          }
+        }
+      },
+      "npm:typescript@2.0.0": {
+        "browser": {},
+        "map": {
+          "buffer": "@empty",
+          "child_process": "@empty",
+          "fs": "@empty",
+          "path": "@empty",
+          "process": "@empty",
+          "readline": "@empty"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1",
+    "gulp-shell": "^0.5.2",
+    "jspm": "^0.17.0-beta.32",
+    "riot": "^3.0.4",
+    "systemjs-builder": "^0.15.23",
+    "typescript": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}

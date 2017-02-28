@@ -1,0 +1,24 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "reactNamespace": "tsx",
+        "jsx": "react",
+        "module": "es2015",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "dist/",
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+        "jspm_packages",
+        "node_modules",
+        "assets",
+        "dist",
+        "public",
+        "jspm.config.js"
+    ]
+}

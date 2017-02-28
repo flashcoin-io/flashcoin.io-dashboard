@@ -1,0 +1,103 @@
+.row {
+    margin: 0;
+}
+
+.container-allpages .container {
+    width: 98%;
+}
+
+a {
+    cursor: pointer;
+    color: #1363C2;
+}
+
+header#theme-header {
+    background: #256598;
+    border: none;
+    /* padding: 15px 0px; */
+    margin: 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#logo {
+    padding-top: 8px;
+    display: inline-block;
+}
+
+#logo img {
+    height: 31px;
+}
+
+footer#theme-footer {
+    background: #fff;
+    /* padding: 20px; */
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-top {
+    background-color: #91aabd;
+    color: #fff;
+    padding-top: 15px;
+}
+
+nav#footer-nav {
+    margin: 0px;
+    min-height: 30px;
+    margin-left: -20px;
+    margin-top: -5px;
+}
+
+#footer-nav .footer-menu-wrap {
+    display: inline-block;
+    /* font-weight: bold; */
+}
+
+#footer-menu {
+    text-align: center;
+}
+
+#theme-footer .footer-logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#theme-footer .footer-logo>a>img {
+    height: 18px;
+}
+
+.footer-copy-right {
+    color: #fff;
+    padding: 10px;
+    font-style: normal;
+    font-size: small;
+    font-weight: 400;
+    background-color: #506675;
+}
+
+#forgot-pass {
+    color: #1363C2;
+    font-size: medium;
+    margin-bottom: 28px;
+    float: left;
+    clear: both;
+}
+
+#resetPwdInput, #forgot-pass a {
+    cursor: pointer;
+    color: #fff;
+}
+
+#footer-menu>.navbar-nav>li>a {
+    color: #fff;
+    padding: 5px;
+    font-style: normal;
+    font-size: small;
+    font-weight: 400;
+}
+
+#footer-menu {
+    text-align: center;
+}
+
+
+
